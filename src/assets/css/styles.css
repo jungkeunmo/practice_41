@@ -1,0 +1,198 @@
+@import "./reset.css";
+
+.screen {
+    width: 100%;
+    height: 70px;
+
+    background-color: aquamarine;
+}
+
+.box {
+    width: 100%;
+    height: 700px;
+
+    background-color: blueviolet;
+}
+
+.app {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col1 {
+    width: 50%;
+    height: 300px;
+
+    background-color: chartreuse;
+}
+
+.app .app__col2 {
+    width: 50%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app .app__col2 .app__col2__sec1 {
+    width: 100%;
+    height: 150px;
+
+    background-color: cornflowerblue;
+}
+
+.app .app__col2 .app__col2__sec2 {
+    width: 100%;
+    height: 150px;
+
+    background-color: cyan;
+}
+
+.add {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.add .add__col1 {
+    width: 20%;
+    height: 150px;
+
+    background-color: darkgrey;
+}
+
+.add .add__col2 {
+    width: 20%;
+    height: 150px;
+
+    background-color: darkkhaki;
+}
+
+.add .add__col3 {
+    width: 20%;
+    height: 150px;
+
+    background-color: darkolivegreen;
+}
+
+.add .add__col4 {
+    width: 20%;
+    height: 150px;
+
+    background-color: darkorchid;
+}
+
+.add .add__col5 {
+    width: 20%;
+    height: 150px;
+
+    background-color: deeppink;
+}
+
+.css {
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.css .css__col1 {
+    width: 20%;
+    height: 250px;
+
+    background-color: greenyellow;
+}
+
+.css .css__col2 {
+    width: 60%;
+    height: 250px;
+
+    background-color: goldenrod;
+}
+
+.css .css__col3 {
+    width: 20%;
+    height: 250px;
+
+    background-color: fuchsia;
+}
+
+.pug {
+    width: 1350px;
+    height: 210px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pug .pug__col1 {
+    width: 1350px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.pug .pug__col1 .pug__col1__sec1 {
+    width: 300px;
+    height: 100px;
+
+    background-color: hotpink;
+}
+
+.pug .pug__col1 .pug__col1__sec2 {
+    width: 1050px;
+    height: 100px;
+
+    background-color: greenyellow;
+}
+
+.pug .pug__col2 {
+    width: 1350px;
+    height: 110px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.pug .pug__col2 .pug__col2__sec1 {
+    width: 300px;
+    height: 110px;
+
+    background-color: lightblue;
+}
+
+.pug .pug__col2 .pug__col2__sec2 {
+    width: 750px;
+    height: 110px;
+
+    background-color: orange;
+}
+
+.pug .pug__col2 .pug__col2__sec3 {
+    width: 300px;
+    height: 110px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pug .pug__col2 .pug__col2__sec3__a1 {
+    width: 300px;
+    height: 60px;
+
+    background-color: yellow;
+}
+
+.pug .pug__col2 .pug__col2__sec3__a2 {
+    width: 300px;
+    height: 50px;
+
+    background-color: red;
+}
